@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-
+from pydantic import BaseModel
 app = FastAPI()
 
 
@@ -17,5 +17,23 @@ def about():
         "project": "Sentinel AI",
         "description": "Sentinel AI is a cutting-edge artificial intelligence platform designed to provide advanced analytics and insights for various industries. Our mission is to empower businesses with intelligent solutions that drive innovation and efficiency.",
 
+    }
+
+class URLrequest(BaseModel):
+    url: str
+    username : str
+
+@app.post("/analyze")
+def analyze(request: URLrequest):
+    return {
+        "url" : request.url,
+        "username": request.username,
+        "risk_score": 92,
+        "status": "High Risk",
+        "reason": [
+            "Misspelled domain",
+            "Looks like a login page",
+            "Requests credentials"
+        ]
     }
     
