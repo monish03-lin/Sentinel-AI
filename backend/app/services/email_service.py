@@ -1,5 +1,5 @@
 from backend.app.schemas.email_schema import emailrequest
-from sqlalchemy import Session
+from sqlalchemy.orm import Session
 from backend.app.models.scan import ScanHistory
 from datetime import datetime
 
