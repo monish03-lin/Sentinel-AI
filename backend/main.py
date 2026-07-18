@@ -1,8 +1,8 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 
-from app.database import engine, base
-from app.models.scan import ScanHistory
+from backend.app.database import engine, base
+from backend.app.models.scan import ScanHistory
 
 
 app = FastAPI()

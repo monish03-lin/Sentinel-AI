@@ -1,5 +1,5 @@
 from sqlalchemy import Column, Integer, String, DateTime
-from app.database import base
+from backend.app.database import base
 from datetime import datetime
 
 scan_date = Column(DateTime, default=datetime.utcnow)
