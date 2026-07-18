@@ -1,13 +1,14 @@
 from datetime import datetime
 
 from fastapi import FastAPI
+from fastapi import Depends
 from pydantic import BaseModel
 
 from backend.app.database import SessionLocal
 from backend.app.database import engine, base
 from backend.app.models.scan import ScanHistory
-
-
+from backend.app.dependencies import get_db
+from sqlalchemy.orm import Session
 app = FastAPI()
 
 base.metadata.create_all(bind=engine)
@@ -83,3 +84,8 @@ def scan_email(emrequest: emailrequest):
             ]
         }
 
+@app.get("/history")
+def get_history(db :Session = Depends(get_db) ):
+    history= db.query(ScanHistory).all()
+    return history
+    
