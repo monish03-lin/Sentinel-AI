@@ -1,14 +1,13 @@
 from datetime import datetime
 
 from backend.app.schemas.url_schema import URLrequest
-from backend.app.database import SessionLocal
+from sqlalchemy.orm import Session
 from backend.app.models.scan import ScanHistory
+from backend.app.dependencies import get_db
+from fastapi import Depends
 
 
-def analyze(request: URLrequest):
-
-    db= SessionLocal()
-
+def analyze(request: URLrequest, db: Session):
     scan = ScanHistory(
         scan_type="URL",
         input_data=request.url,
@@ -19,7 +18,6 @@ def analyze(request: URLrequest):
     db.add(scan)
     db.commit()
     db.refresh(scan)
-    db.close()
 
     return {
         "url" : request.url,

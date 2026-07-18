@@ -1,8 +1,22 @@
 from backend.app.schemas.email_schema import emailrequest
+from sqlalchemy import Session
+from backend.app.models.scan import ScanHistory
+from datetime import datetime
 
+def scan_email(emrequest: emailrequest, db :Session):
 
-def scan_email(emrequest: emailrequest):
+    scan = ScanHistory(
+        scan_type="Email",
+        input_data=emrequest.subject,
+        risk_score=85,
+        explanation="Suspicious sender domain, urgent language, contains links",
+        scan_date=datetime.utcnow()
     
+    )
+    db.add(scan)
+    db.commit()
+    db.refresh(scan)
+
     return{
             "sender": emrequest.sender,
             "subject": emrequest.subject,
