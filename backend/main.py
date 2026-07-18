@@ -1,6 +1,9 @@
+from datetime import datetime
+
 from fastapi import FastAPI
 from pydantic import BaseModel
 
+from backend.app.database import SessionLocal
 from backend.app.database import engine, base
 from backend.app.models.scan import ScanHistory
 
@@ -32,6 +35,21 @@ class URLrequest(BaseModel):
 
 @app.post("/analyze")
 def analyze(request: URLrequest):
+
+    db= SessionLocal()
+
+    scan = ScanHistory(
+        scan_type="URL",
+        input_data=request.url,
+        risk_score=92,
+        explanation="High Risk: Misspelled domain, looks like a login page, requests credentials",
+        scan_date=datetime.utcnow()
+    )
+    db.add(scan)
+    db.commit()
+    db.refresh(scan)
+    db.close()
+
     return {
         "url" : request.url,
         "username": request.username,
@@ -51,6 +69,7 @@ class emailrequest(BaseModel):
     
 @app.post("/scan_email")
 def scan_email(emrequest: emailrequest):
+    
     return{
             "sender": emrequest.sender,
             "subject": emrequest.subject,
