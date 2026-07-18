@@ -1,5 +1,8 @@
-from sqlalchmey import Column, Integer, String, DateTime
+from sqlalchemy import Column, Integer, String, DateTime
 from app.database import base
+from datetime import datetime
+
+scan_date = Column(DateTime, default=datetime.utcnow)
 
 class ScanHistory(base):
     __tablename__ = "Scan_History"

@@ -1,6 +1,13 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
+
+from app.database import engine, base
+from app.models.scan import ScanHistory
+
+
 app = FastAPI()
+
+base.metadata.create_all(bind=engine)
 
 
 @app.get("/")
