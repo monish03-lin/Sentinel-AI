@@ -1,0 +1,2 @@
+from backend.app.AI.preprocessing import normalize_whitespace
+print(normalize_whitespace("i am                 not o                  k"))
