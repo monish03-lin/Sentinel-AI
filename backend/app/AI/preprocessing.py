@@ -1,7 +1,10 @@
 """Every incoming email passes through this module before being processed by the AI model. It is responsible for cleaning and preprocessing the email content to ensure that the AI model receives data in a consistent and usable format."""
 
 
+import email
 import re
+import html
+import unicodedata
 from dataclasses import dataclass
 from typing import List
 from app.schemas.email_schema import emailrequest 
@@ -37,6 +40,23 @@ def extract_email_addresses(text : str) ->list:
                        r"@[a-zA-Z0-9.-]+"
                        r"\.[a-zA-Z]{2,}\b")
         return re.findall(email_pattern, text)
+
+def normalize_unicode(text: str) -> str:
+    if not text:
+        return ""
+    return unicodedata.normalize("NFKC", text)
+
+def decode_html_entities(text: str) -> str:
+    if not text:
+        return ""
+    return html.unescape(text)
+
+def clean_text(text: str) -> str:
+    text = remove_html(text)
+    text = decode_html_entities(text)
+    text = normalize_unicode(text)
+    text = normalize_whitespace(text)
+    return text
     
 def preprocess_email(email : emailrequest) -> preprocessing_result:
         
@@ -52,16 +72,9 @@ def preprocess_email(email : emailrequest) -> preprocessing_result:
         email_addresses = list(
         set(subject_email_addresses + body_email_addresses)
     )
-
-
-        clean_subject = remove_html(email.subject)
-        clean_subject = normalize_whitespace(clean_subject)
-
-
-
-        clean_body = remove_html(email.body)
-        clean_body = normalize_whitespace(clean_body)
-
+        clean_subject = clean_text(email.subject)
+        clean_body = clean_text(email.body)
+        
     
         return preprocessing_result(
         sender=email.sender,
