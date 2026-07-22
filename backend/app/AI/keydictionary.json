@@ -1,0 +1,2160 @@
+{
+    "urgency": [
+
+    {
+        "text": "urgent",
+        "weight": 2,
+        "severity": "low",
+        "description": "Creates a general sense of urgency."
+    },
+    {
+        "text": "urgently",
+        "weight": 2,
+        "severity": "low",
+        "description": "Encourages immediate attention."
+    },
+    {
+        "text": "immediately",
+        "weight": 3,
+        "severity": "medium",
+        "description": "Requests immediate action."
+    },
+    {
+        "text": "immediate action required",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Strong pressure to act without delay."
+    },
+    {
+        "text": "action required",
+        "weight": 4,
+        "severity": "high",
+        "description": "Requests immediate user response."
+    },
+    {
+        "text": "act now",
+        "weight": 4,
+        "severity": "high",
+        "description": "Attempts to rush the recipient."
+    },
+    {
+        "text": "respond now",
+        "weight": 4,
+        "severity": "high",
+        "description": "Encourages immediate response."
+    },
+    {
+        "text": "reply immediately",
+        "weight": 4,
+        "severity": "high",
+        "description": "Pressures the user into replying quickly."
+    },
+    {
+        "text": "without delay",
+        "weight": 3,
+        "severity": "medium",
+        "description": "Discourages taking time to verify."
+    },
+    {
+        "text": "as soon as possible",
+        "weight": 2,
+        "severity": "low",
+        "description": "Suggests urgency."
+    },
+    {
+        "text": "time sensitive",
+        "weight": 3,
+        "severity": "medium",
+        "description": "Claims the matter is time-critical."
+    },
+    {
+        "text": "time is running out",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Creates fear of missing a deadline."
+    },
+    {
+        "text": "limited time",
+        "weight": 3,
+        "severity": "medium",
+        "description": "Uses scarcity to pressure users."
+    },
+    {
+        "text": "expires today",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Claims an immediate expiration."
+    },
+    {
+        "text": "expires soon",
+        "weight": 4,
+        "severity": "high",
+        "description": "Creates urgency through an approaching deadline."
+    },
+    {
+        "text": "expiration notice",
+        "weight": 4,
+        "severity": "high",
+        "description": "Warns of impending expiration."
+    },
+    {
+        "text": "last warning",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Uses fear to force quick action."
+    },
+    {
+        "text": "final warning",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Common coercive phishing phrase."
+    },
+    {
+        "text": "final notice",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Suggests severe consequences if ignored."
+    },
+    {
+        "text": "second notice",
+        "weight": 3,
+        "severity": "medium",
+        "description": "Implies repeated ignored notifications."
+    },
+    {
+        "text": "important notice",
+        "weight": 2,
+        "severity": "low",
+        "description": "Marks the message as important."
+    },
+    {
+        "text": "important update",
+        "weight": 2,
+        "severity": "low",
+        "description": "Requests attention to an update."
+    },
+    {
+        "text": "attention required",
+        "weight": 4,
+        "severity": "high",
+        "description": "Demands immediate attention."
+    },
+    {
+        "text": "your attention is required",
+        "weight": 4,
+        "severity": "high",
+        "description": "Attempts to increase urgency."
+    },
+    {
+        "text": "high priority",
+        "weight": 3,
+        "severity": "medium",
+        "description": "Claims the email is highly important."
+    },
+    {
+        "text": "priority message",
+        "weight": 3,
+        "severity": "medium",
+        "description": "Marks the email as urgent."
+    },
+    {
+        "text": "critical update",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Claims a critical change requiring action."
+    },
+    {
+        "text": "security alert",
+        "weight": 4,
+        "severity": "high",
+        "description": "Attempts to trigger fear."
+    },
+    {
+        "text": "security notification",
+        "weight": 3,
+        "severity": "medium",
+        "description": "Claims a security-related event."
+    },
+    {
+        "text": "account alert",
+        "weight": 4,
+        "severity": "high",
+        "description": "Suggests an issue with the user's account."
+    },
+    {
+        "text": "verify immediately",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Demands immediate verification."
+    },
+    {
+        "text": "within 24 hours",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Creates a strict deadline."
+    },
+    {
+        "text": "within 48 hours",
+        "weight": 4,
+        "severity": "high",
+        "description": "Applies time pressure."
+    },
+    {
+        "text": "today only",
+        "weight": 4,
+        "severity": "high",
+        "description": "Claims the offer or action expires today."
+    },
+    {
+        "text": "before midnight",
+        "weight": 4,
+        "severity": "high",
+        "description": "Creates urgency using a fixed deadline."
+    },
+    {
+        "text": "deadline approaching",
+        "weight": 4,
+        "severity": "high",
+        "description": "Warns of an approaching deadline."
+    },
+    {
+        "text": "offer expires",
+        "weight": 3,
+        "severity": "medium",
+        "description": "Uses scarcity tactics."
+    },
+    {
+        "text": "do not ignore",
+        "weight": 4,
+        "severity": "high",
+        "description": "Discourages the user from ignoring the email."
+    },
+    {
+        "text": "failure to respond",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Threatens consequences for not responding."
+    },
+    {
+        "text": "avoid interruption",
+        "weight": 4,
+        "severity": "high",
+        "description": "Suggests services may be disrupted."
+    },
+    {
+        "text": "service interruption",
+        "weight": 4,
+        "severity": "high",
+        "description": "Claims services will stop."
+    },
+    {
+        "text": "prevent suspension",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Creates fear of account suspension."
+    },
+    {
+        "text": "take action now",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Strong pressure for immediate action."
+    },
+    {
+        "text": "instant response required",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Demands an immediate response."
+    },
+    {
+        "text": "this cannot wait",
+        "weight": 4,
+        "severity": "high",
+        "description": "Attempts to prevent careful evaluation."
+    },
+    {
+        "text": "right away",
+        "weight": 3,
+        "severity": "medium",
+        "description": "Encourages immediate action."
+    },
+    {
+        "text": "at once",
+        "weight": 3,
+        "severity": "medium",
+        "description": "Requests immediate action."
+    },
+    {
+        "text": "urgent response needed",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Strong social engineering pressure."
+    },
+    {
+        "text": "don't miss out",
+        "weight": 3,
+        "severity": "medium",
+        "description": "Uses fear of missing an opportunity."
+    },
+    {
+        "text": "limited availability",
+        "weight": 3,
+        "severity": "medium",
+        "description": "Uses scarcity to encourage quick decisions."
+    }
+],
+"credential": [
+
+    {
+        "text": "password",
+        "weight": 4,
+        "severity": "high",
+        "description": "References account passwords."
+    },
+    {
+        "text": "passcode",
+        "weight": 3,
+        "severity": "medium",
+        "description": "Requests or references a passcode."
+    },
+    {
+        "text": "login",
+        "weight": 3,
+        "severity": "medium",
+        "description": "Requests the user to log in."
+    },
+    {
+        "text": "log in",
+        "weight": 3,
+        "severity": "medium",
+        "description": "Alternative login phrase."
+    },
+    {
+        "text": "sign in",
+        "weight": 3,
+        "severity": "medium",
+        "description": "Requests account authentication."
+    },
+    {
+        "text": "username",
+        "weight": 3,
+        "severity": "medium",
+        "description": "Requests account username."
+    },
+    {
+        "text": "user id",
+        "weight": 3,
+        "severity": "medium",
+        "description": "Requests user identification."
+    },
+    {
+        "text": "customer id",
+        "weight": 3,
+        "severity": "medium",
+        "description": "Requests customer identifier."
+    },
+    {
+        "text": "account id",
+        "weight": 3,
+        "severity": "medium",
+        "description": "Requests account identifier."
+    },
+    {
+        "text": "verify account",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Attempts credential harvesting."
+    },
+    {
+        "text": "verify your account",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Classic phishing credential request."
+    },
+    {
+        "text": "account verification",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests account verification."
+    },
+    {
+        "text": "identity verification",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests identity confirmation."
+    },
+    {
+        "text": "confirm identity",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Attempts identity verification."
+    },
+    {
+        "text": "verify identity",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests identity verification."
+    },
+    {
+        "text": "confirm your identity",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Social engineering for identity confirmation."
+    },
+    {
+        "text": "confirm your account",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests account confirmation."
+    },
+    {
+        "text": "confirm your login",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Attempts login verification."
+    },
+    {
+        "text": "authenticate",
+        "weight": 4,
+        "severity": "high",
+        "description": "Requests user authentication."
+    },
+    {
+        "text": "authentication",
+        "weight": 4,
+        "severity": "high",
+        "description": "References authentication process."
+    },
+    {
+        "text": "authentication failed",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Claims authentication failure."
+    },
+    {
+        "text": "authentication required",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests immediate authentication."
+    },
+    {
+        "text": "security code",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests a security code."
+    },
+    {
+        "text": "verification code",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests a verification code."
+    },
+    {
+        "text": "otp",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Requests one-time password."
+    },
+    {
+        "text": "one time password",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Requests OTP."
+    },
+    {
+        "text": "2fa",
+        "weight": 5,
+        "severity": "critical",
+        "description": "References two-factor authentication."
+    },
+    {
+        "text": "two factor authentication",
+        "weight": 5,
+        "severity": "critical",
+        "description": "References MFA process."
+    },
+    {
+        "text": "multi factor authentication",
+        "weight": 5,
+        "severity": "critical",
+        "description": "References MFA verification."
+    },
+    {
+        "text": "mfa",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests MFA confirmation."
+    },
+    {
+        "text": "security question",
+        "weight": 4,
+        "severity": "high",
+        "description": "Requests security question answer."
+    },
+    {
+        "text": "secret answer",
+        "weight": 4,
+        "severity": "high",
+        "description": "Requests secret answer."
+    },
+    {
+        "text": "reset password",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests password reset."
+    },
+    {
+        "text": "change password",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests password modification."
+    },
+    {
+        "text": "update password",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests password update."
+    },
+    {
+        "text": "recover account",
+        "weight": 4,
+        "severity": "high",
+        "description": "Claims account recovery."
+    },
+    {
+        "text": "unlock account",
+        "weight": 4,
+        "severity": "high",
+        "description": "Claims account unlocking."
+    },
+    {
+        "text": "reactivate account",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests account reactivation."
+    },
+    {
+        "text": "secure your account",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Claims account needs securing."
+    },
+    {
+        "text": "account security",
+        "weight": 4,
+        "severity": "high",
+        "description": "References account security."
+    },
+    {
+        "text": "security verification",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests security verification."
+    },
+    {
+        "text": "validate account",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests account validation."
+    },
+    {
+        "text": "validate identity",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests identity validation."
+    },
+    {
+        "text": "credential verification",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Attempts credential validation."
+    },
+    {
+        "text": "session expired",
+        "weight": 4,
+        "severity": "high",
+        "description": "Claims login session expired."
+    },
+    {
+        "text": "login expired",
+        "weight": 4,
+        "severity": "high",
+        "description": "Claims authentication session expired."
+    },
+    {
+        "text": "re authenticate",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests another authentication."
+    },
+    {
+        "text": "sign in again",
+        "weight": 4,
+        "severity": "high",
+        "description": "Requests repeated login."
+    },
+    {
+        "text": "login credentials",
+        "weight": 6,
+        "severity": "critical",
+        "description": "References username and password together."
+    },
+    {
+        "text": "credential update",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests credential modification."
+    },
+    {
+        "text": "verify login details",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Attempts to steal login credentials."
+    }
+],
+"payment": [
+
+    {
+        "text": "payment",
+        "weight": 2,
+        "severity": "low",
+        "description": "References a payment."
+    },
+    {
+        "text": "payment due",
+        "weight": 4,
+        "severity": "high",
+        "description": "Claims an outstanding payment."
+    },
+    {
+        "text": "payment overdue",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Creates urgency around an overdue payment."
+    },
+    {
+        "text": "invoice",
+        "weight": 3,
+        "severity": "medium",
+        "description": "References an invoice."
+    },
+    {
+        "text": "invoice attached",
+        "weight": 4,
+        "severity": "high",
+        "description": "Claims an invoice is attached."
+    },
+    {
+        "text": "invoice pending",
+        "weight": 4,
+        "severity": "high",
+        "description": "Claims an unpaid invoice."
+    },
+    {
+        "text": "invoice overdue",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Claims an overdue invoice."
+    },
+    {
+        "text": "billing",
+        "weight": 2,
+        "severity": "low",
+        "description": "References billing information."
+    },
+    {
+        "text": "billing update",
+        "weight": 4,
+        "severity": "high",
+        "description": "Requests billing changes."
+    },
+    {
+        "text": "billing information",
+        "weight": 3,
+        "severity": "medium",
+        "description": "References billing details."
+    },
+    {
+        "text": "billing issue",
+        "weight": 4,
+        "severity": "high",
+        "description": "Claims a billing problem."
+    },
+    {
+        "text": "transaction",
+        "weight": 2,
+        "severity": "low",
+        "description": "References a financial transaction."
+    },
+    {
+        "text": "transaction failed",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Claims a payment transaction failed."
+    },
+    {
+        "text": "transaction declined",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Claims a declined transaction."
+    },
+    {
+        "text": "unauthorized transaction",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Claims suspicious account activity."
+    },
+    {
+        "text": "wire transfer",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Requests a bank wire transfer."
+    },
+    {
+        "text": "bank transfer",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests transferring money."
+    },
+    {
+        "text": "electronic transfer",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests electronic funds transfer."
+    },
+    {
+        "text": "bank account",
+        "weight": 3,
+        "severity": "medium",
+        "description": "References bank account information."
+    },
+    {
+        "text": "account number",
+        "weight": 4,
+        "severity": "high",
+        "description": "Requests bank account number."
+    },
+    {
+        "text": "routing number",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests bank routing details."
+    },
+    {
+        "text": "ifsc",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests IFSC banking code."
+    },
+    {
+        "text": "swift code",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests SWIFT transfer information."
+    },
+    {
+        "text": "iban",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests IBAN bank information."
+    },
+    {
+        "text": "beneficiary",
+        "weight": 4,
+        "severity": "high",
+        "description": "References transfer beneficiary."
+    },
+    {
+        "text": "credit card",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests credit card details."
+    },
+    {
+        "text": "debit card",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests debit card information."
+    },
+    {
+        "text": "card number",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests card number."
+    },
+    {
+        "text": "cvv",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Requests CVV security code."
+    },
+    {
+        "text": "expiry date",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests card expiration date."
+    },
+    {
+        "text": "upi",
+        "weight": 4,
+        "severity": "high",
+        "description": "References UPI payment."
+    },
+    {
+        "text": "upi id",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests UPI identifier."
+    },
+    {
+        "text": "paytm",
+        "weight": 3,
+        "severity": "medium",
+        "description": "References Paytm payments."
+    },
+    {
+        "text": "google pay",
+        "weight": 3,
+        "severity": "medium",
+        "description": "References Google Pay."
+    },
+    {
+        "text": "phonepe",
+        "weight": 3,
+        "severity": "medium",
+        "description": "References PhonePe."
+    },
+    {
+        "text": "refund",
+        "weight": 4,
+        "severity": "high",
+        "description": "Promises or references a refund."
+    },
+    {
+        "text": "refund approved",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Claims a refund has been approved."
+    },
+    {
+        "text": "claim refund",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests action to receive a refund."
+    },
+    {
+        "text": "tax refund",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Claims a government tax refund."
+    },
+    {
+        "text": "outstanding balance",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Claims unpaid balance."
+    },
+    {
+        "text": "balance due",
+        "weight": 4,
+        "severity": "high",
+        "description": "Requests payment of outstanding balance."
+    },
+    {
+        "text": "payment confirmation",
+        "weight": 3,
+        "severity": "medium",
+        "description": "References payment confirmation."
+    },
+    {
+        "text": "confirm payment",
+        "weight": 4,
+        "severity": "high",
+        "description": "Requests payment confirmation."
+    },
+    {
+        "text": "purchase confirmation",
+        "weight": 3,
+        "severity": "medium",
+        "description": "Claims a purchase was made."
+    },
+    {
+        "text": "order confirmation",
+        "weight": 3,
+        "severity": "medium",
+        "description": "References an order confirmation."
+    },
+    {
+        "text": "subscription renewal",
+        "weight": 4,
+        "severity": "high",
+        "description": "Claims subscription renewal."
+    },
+    {
+        "text": "automatic payment",
+        "weight": 4,
+        "severity": "high",
+        "description": "Claims automatic payment processing."
+    },
+    {
+        "text": "processing fee",
+        "weight": 4,
+        "severity": "high",
+        "description": "Requests a processing fee."
+    },
+    {
+        "text": "service charge",
+        "weight": 3,
+        "severity": "medium",
+        "description": "References service charges."
+    },
+    {
+        "text": "confirm bank details",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Requests verification of banking information."
+    },
+    {
+        "text": "update payment information",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Requests updated payment credentials."
+    }
+],
+"personal_info": [
+
+    {
+        "text": "aadhaar",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Requests Aadhaar identification."
+    },
+    {
+        "text": "aadhaar number",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Requests Aadhaar number."
+    },
+    {
+        "text": "aadhar",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Alternative spelling of Aadhaar."
+    },
+    {
+        "text": "pan",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests PAN details."
+    },
+    {
+        "text": "pan card",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests PAN card information."
+    },
+    {
+        "text": "passport",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests passport information."
+    },
+    {
+        "text": "passport number",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Requests passport number."
+    },
+    {
+        "text": "driving licence",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests driving licence details."
+    },
+    {
+        "text": "driver license",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests driver's license."
+    },
+    {
+        "text": "voter id",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests voter identification."
+    },
+    {
+        "text": "national id",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests national identity information."
+    },
+    {
+        "text": "government id",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests government-issued ID."
+    },
+    {
+        "text": "social security",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Requests Social Security information."
+    },
+    {
+        "text": "ssn",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Requests Social Security Number."
+    },
+    {
+        "text": "tax id",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests tax identification."
+    },
+    {
+        "text": "tin",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests Taxpayer Identification Number."
+    },
+    {
+        "text": "date of birth",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests date of birth."
+    },
+    {
+        "text": "birth date",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests birth date."
+    },
+    {
+        "text": "dob",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests DOB."
+    },
+    {
+        "text": "full name",
+        "weight": 3,
+        "severity": "medium",
+        "description": "Requests full legal name."
+    },
+    {
+        "text": "legal name",
+        "weight": 3,
+        "severity": "medium",
+        "description": "Requests legal identity."
+    },
+    {
+        "text": "first name",
+        "weight": 2,
+        "severity": "low",
+        "description": "Requests first name."
+    },
+    {
+        "text": "last name",
+        "weight": 2,
+        "severity": "low",
+        "description": "Requests last name."
+    },
+    {
+        "text": "middle name",
+        "weight": 2,
+        "severity": "low",
+        "description": "Requests middle name."
+    },
+    {
+        "text": "phone number",
+        "weight": 4,
+        "severity": "high",
+        "description": "Requests phone number."
+    },
+    {
+        "text": "mobile number",
+        "weight": 4,
+        "severity": "high",
+        "description": "Requests mobile number."
+    },
+    {
+        "text": "contact number",
+        "weight": 4,
+        "severity": "high",
+        "description": "Requests contact number."
+    },
+    {
+        "text": "telephone number",
+        "weight": 4,
+        "severity": "high",
+        "description": "Requests telephone number."
+    },
+    {
+        "text": "email address",
+        "weight": 3,
+        "severity": "medium",
+        "description": "Requests email address."
+    },
+    {
+        "text": "home address",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests residential address."
+    },
+    {
+        "text": "residential address",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests residential information."
+    },
+    {
+        "text": "mailing address",
+        "weight": 4,
+        "severity": "high",
+        "description": "Requests mailing address."
+    },
+    {
+        "text": "postal address",
+        "weight": 4,
+        "severity": "high",
+        "description": "Requests postal address."
+    },
+    {
+        "text": "address proof",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests proof of address."
+    },
+    {
+        "text": "proof of address",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests residential verification."
+    },
+    {
+        "text": "identity proof",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests proof of identity."
+    },
+    {
+        "text": "government issued id",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests government identification."
+    },
+    {
+        "text": "upload id",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Requests uploading identification."
+    },
+    {
+        "text": "upload documents",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests personal documents."
+    },
+    {
+        "text": "identity document",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests identity documentation."
+    },
+    {
+        "text": "verification document",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests verification paperwork."
+    },
+    {
+        "text": "personal information",
+        "weight": 4,
+        "severity": "high",
+        "description": "Requests personal information."
+    },
+    {
+        "text": "personal details",
+        "weight": 4,
+        "severity": "high",
+        "description": "Requests personal details."
+    },
+    {
+        "text": "identity verification",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests identity verification."
+    },
+    {
+        "text": "verify your identity",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Attempts to collect identity information."
+    },
+    {
+        "text": "know your customer",
+        "weight": 5,
+        "severity": "critical",
+        "description": "References KYC verification."
+    },
+    {
+        "text": "kyc",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests KYC verification."
+    },
+    {
+        "text": "complete kyc",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Requests KYC completion."
+    },
+    {
+        "text": "customer verification",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests customer verification."
+    },
+    {
+        "text": "identity confirmation",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests identity confirmation."
+    },
+    {
+        "text": "verify personal details",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Attempts to obtain sensitive personal information."
+    }
+],
+"crypto": [
+
+    {
+        "text": "bitcoin",
+        "weight": 3,
+        "severity": "medium",
+        "description": "References Bitcoin cryptocurrency."
+    },
+    {
+        "text": "btc",
+        "weight": 3,
+        "severity": "medium",
+        "description": "Uses Bitcoin abbreviation."
+    },
+    {
+        "text": "ethereum",
+        "weight": 3,
+        "severity": "medium",
+        "description": "References Ethereum cryptocurrency."
+    },
+    {
+        "text": "eth",
+        "weight": 3,
+        "severity": "medium",
+        "description": "Uses Ethereum abbreviation."
+    },
+    {
+        "text": "crypto",
+        "weight": 2,
+        "severity": "low",
+        "description": "References cryptocurrency."
+    },
+    {
+        "text": "cryptocurrency",
+        "weight": 2,
+        "severity": "low",
+        "description": "Mentions cryptocurrency."
+    },
+    {
+        "text": "digital currency",
+        "weight": 2,
+        "severity": "low",
+        "description": "References digital currency."
+    },
+    {
+        "text": "blockchain",
+        "weight": 2,
+        "severity": "low",
+        "description": "Mentions blockchain technology."
+    },
+    {
+        "text": "wallet",
+        "weight": 3,
+        "severity": "medium",
+        "description": "References a cryptocurrency wallet."
+    },
+    {
+        "text": "crypto wallet",
+        "weight": 4,
+        "severity": "high",
+        "description": "Requests or references a crypto wallet."
+    },
+    {
+        "text": "wallet address",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests wallet address."
+    },
+    {
+        "text": "wallet recovery",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Claims wallet recovery."
+    },
+    {
+        "text": "wallet verification",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests wallet verification."
+    },
+    {
+        "text": "seed phrase",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Requests wallet recovery phrase."
+    },
+    {
+        "text": "recovery phrase",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Requests recovery phrase."
+    },
+    {
+        "text": "recovery words",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Requests wallet recovery words."
+    },
+    {
+        "text": "private key",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Requests private key."
+    },
+    {
+        "text": "secret key",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Requests secret cryptographic key."
+    },
+    {
+        "text": "mnemonic phrase",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Requests wallet mnemonic."
+    },
+    {
+        "text": "connect wallet",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests wallet connection."
+    },
+    {
+        "text": "link wallet",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests wallet linking."
+    },
+    {
+        "text": "sync wallet",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests wallet synchronization."
+    },
+    {
+        "text": "validate wallet",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests wallet validation."
+    },
+    {
+        "text": "verify wallet",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests wallet verification."
+    },
+    {
+        "text": "claim airdrop",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Promises a cryptocurrency airdrop."
+    },
+    {
+        "text": "airdrop",
+        "weight": 5,
+        "severity": "critical",
+        "description": "References crypto airdrop."
+    },
+    {
+        "text": "token airdrop",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Promises token distribution."
+    },
+    {
+        "text": "free tokens",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Promises free crypto tokens."
+    },
+    {
+        "text": "claim tokens",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests claiming cryptocurrency."
+    },
+    {
+        "text": "claim coins",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Promises free cryptocurrency."
+    },
+    {
+        "text": "crypto reward",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Promises cryptocurrency rewards."
+    },
+    {
+        "text": "investment opportunity",
+        "weight": 4,
+        "severity": "high",
+        "description": "Promotes investment."
+    },
+    {
+        "text": "guaranteed returns",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Promises guaranteed profits."
+    },
+    {
+        "text": "double your bitcoin",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Classic cryptocurrency scam."
+    },
+    {
+        "text": "send bitcoin",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Requests Bitcoin transfer."
+    },
+    {
+        "text": "send btc",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Requests BTC transfer."
+    },
+    {
+        "text": "send ethereum",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Requests Ethereum transfer."
+    },
+    {
+        "text": "send eth",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Requests ETH transfer."
+    },
+    {
+        "text": "crypto exchange",
+        "weight": 3,
+        "severity": "medium",
+        "description": "References cryptocurrency exchange."
+    },
+    {
+        "text": "coinbase",
+        "weight": 3,
+        "severity": "medium",
+        "description": "Mentions Coinbase platform."
+    },
+    {
+        "text": "binance",
+        "weight": 3,
+        "severity": "medium",
+        "description": "Mentions Binance exchange."
+    },
+    {
+        "text": "metamask",
+        "weight": 4,
+        "severity": "high",
+        "description": "References MetaMask wallet."
+    },
+    {
+        "text": "trust wallet",
+        "weight": 4,
+        "severity": "high",
+        "description": "References Trust Wallet."
+    },
+    {
+        "text": "defi",
+        "weight": 3,
+        "severity": "medium",
+        "description": "Mentions decentralized finance."
+    },
+    {
+        "text": "staking",
+        "weight": 3,
+        "severity": "medium",
+        "description": "References cryptocurrency staking."
+    },
+    {
+        "text": "mining reward",
+        "weight": 4,
+        "severity": "high",
+        "description": "Promises mining rewards."
+    },
+    {
+        "text": "nft",
+        "weight": 2,
+        "severity": "low",
+        "description": "References NFT."
+    },
+    {
+        "text": "smart contract",
+        "weight": 2,
+        "severity": "low",
+        "description": "Mentions smart contracts."
+    },
+    {
+        "text": "web3",
+        "weight": 2,
+        "severity": "low",
+        "description": "Mentions Web3."
+    },
+    {
+        "text": "crypto giveaway",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Promises cryptocurrency giveaway."
+    },
+    {
+        "text": "limited token sale",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Creates urgency around token purchase."
+    }
+],
+"reward": [
+
+    {
+        "text": "winner",
+        "weight": 4,
+        "severity": "high",
+        "description": "Claims the recipient has won something."
+    },
+    {
+        "text": "you are a winner",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Declares the recipient as a winner."
+    },
+    {
+        "text": "congratulations",
+        "weight": 3,
+        "severity": "medium",
+        "description": "Congratulates the recipient."
+    },
+    {
+        "text": "congratulations you won",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Claims the recipient won a prize."
+    },
+    {
+        "text": "claim prize",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Requests claiming a prize."
+    },
+    {
+        "text": "claim your prize",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Encourages immediate prize claim."
+    },
+    {
+        "text": "claim reward",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Promises a reward."
+    },
+    {
+        "text": "claim your reward",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Requests reward claim."
+    },
+    {
+        "text": "reward",
+        "weight": 2,
+        "severity": "low",
+        "description": "References a reward."
+    },
+    {
+        "text": "exclusive reward",
+        "weight": 4,
+        "severity": "high",
+        "description": "Promises an exclusive reward."
+    },
+    {
+        "text": "cash reward",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Promises cash reward."
+    },
+    {
+        "text": "cash prize",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Promises a cash prize."
+    },
+    {
+        "text": "grand prize",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Claims a grand prize."
+    },
+    {
+        "text": "jackpot",
+        "weight": 5,
+        "severity": "critical",
+        "description": "References jackpot winnings."
+    },
+    {
+        "text": "lottery",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Mentions lottery winnings."
+    },
+    {
+        "text": "lottery winner",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Claims lottery winnings."
+    },
+    {
+        "text": "lucky draw",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Claims lucky draw selection."
+    },
+    {
+        "text": "raffle",
+        "weight": 4,
+        "severity": "high",
+        "description": "References raffle winnings."
+    },
+    {
+        "text": "sweepstakes",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Claims sweepstakes reward."
+    },
+    {
+        "text": "gift",
+        "weight": 2,
+        "severity": "low",
+        "description": "References a gift."
+    },
+    {
+        "text": "free gift",
+        "weight": 4,
+        "severity": "high",
+        "description": "Promises a free gift."
+    },
+    {
+        "text": "gift card",
+        "weight": 4,
+        "severity": "high",
+        "description": "Offers a gift card."
+    },
+    {
+        "text": "amazon gift card",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Promises Amazon gift card."
+    },
+    {
+        "text": "shopping voucher",
+        "weight": 4,
+        "severity": "high",
+        "description": "Promises shopping voucher."
+    },
+    {
+        "text": "voucher",
+        "weight": 3,
+        "severity": "medium",
+        "description": "References promotional voucher."
+    },
+    {
+        "text": "coupon",
+        "weight": 3,
+        "severity": "medium",
+        "description": "Offers a coupon."
+    },
+    {
+        "text": "promo code",
+        "weight": 3,
+        "severity": "medium",
+        "description": "Offers promotional code."
+    },
+    {
+        "text": "discount code",
+        "weight": 3,
+        "severity": "medium",
+        "description": "Provides discount code."
+    },
+    {
+        "text": "redeem",
+        "weight": 3,
+        "severity": "medium",
+        "description": "Requests redemption."
+    },
+    {
+        "text": "redeem now",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Pressures immediate redemption."
+    },
+    {
+        "text": "exclusive offer",
+        "weight": 3,
+        "severity": "medium",
+        "description": "Promises an exclusive offer."
+    },
+    {
+        "text": "special offer",
+        "weight": 3,
+        "severity": "medium",
+        "description": "Advertises special offer."
+    },
+    {
+        "text": "limited offer",
+        "weight": 4,
+        "severity": "high",
+        "description": "Uses scarcity marketing."
+    },
+    {
+        "text": "bonus",
+        "weight": 2,
+        "severity": "low",
+        "description": "Promises bonus."
+    },
+    {
+        "text": "bonus reward",
+        "weight": 4,
+        "severity": "high",
+        "description": "Promises bonus reward."
+    },
+    {
+        "text": "loyalty reward",
+        "weight": 4,
+        "severity": "high",
+        "description": "Claims loyalty reward."
+    },
+    {
+        "text": "exclusive bonus",
+        "weight": 4,
+        "severity": "high",
+        "description": "Promises exclusive bonus."
+    },
+    {
+        "text": "free iphone",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Promises free iPhone."
+    },
+    {
+        "text": "free laptop",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Promises free laptop."
+    },
+    {
+        "text": "free vacation",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Promises free vacation."
+    },
+    {
+        "text": "free trip",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Promises free travel."
+    },
+    {
+        "text": "free membership",
+        "weight": 4,
+        "severity": "high",
+        "description": "Promises complimentary membership."
+    },
+    {
+        "text": "selected customer",
+        "weight": 4,
+        "severity": "high",
+        "description": "Claims special customer selection."
+    },
+    {
+        "text": "exclusive invitation",
+        "weight": 3,
+        "severity": "medium",
+        "description": "Claims exclusive invitation."
+    },
+    {
+        "text": "claim before it expires",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Combines reward with urgency."
+    },
+    {
+        "text": "free money",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Promises free money."
+    },
+    {
+        "text": "earn rewards",
+        "weight": 3,
+        "severity": "medium",
+        "description": "Promises reward earnings."
+    },
+    {
+        "text": "instant reward",
+        "weight": 4,
+        "severity": "high",
+        "description": "Promises immediate reward."
+    },
+    {
+        "text": "reward points",
+        "weight": 3,
+        "severity": "medium",
+        "description": "References reward points."
+    },
+    {
+        "text": "free giveaway",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Promises giveaway."
+    },
+    {
+        "text": "exclusive giveaway",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Claims exclusive giveaway."
+    }
+],
+"threat": [
+
+    {
+        "text": "account suspended",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Claims the account has been suspended."
+    },
+    {
+        "text": "account will be suspended",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Threatens future account suspension."
+    },
+    {
+        "text": "your account has been suspended",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Claims the user's account is suspended."
+    },
+    {
+        "text": "account locked",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Claims the account is locked."
+    },
+    {
+        "text": "account disabled",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Claims the account has been disabled."
+    },
+    {
+        "text": "account restricted",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Claims access has been restricted."
+    },
+    {
+        "text": "service suspended",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Claims service has been suspended."
+    },
+    {
+        "text": "service terminated",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Threatens service termination."
+    },
+    {
+        "text": "account terminated",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Claims permanent account termination."
+    },
+    {
+        "text": "terminate your account",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Threatens account termination."
+    },
+    {
+        "text": "legal action",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Threatens legal proceedings."
+    },
+    {
+        "text": "court notice",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Claims court involvement."
+    },
+    {
+        "text": "lawsuit",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Threatens legal lawsuit."
+    },
+    {
+        "text": "legal proceedings",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Threatens legal proceedings."
+    },
+    {
+        "text": "criminal charges",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Threatens criminal prosecution."
+    },
+    {
+        "text": "penalty",
+        "weight": 4,
+        "severity": "high",
+        "description": "Threatens a financial penalty."
+    },
+    {
+        "text": "fine",
+        "weight": 4,
+        "severity": "high",
+        "description": "Threatens a monetary fine."
+    },
+    {
+        "text": "late fee",
+        "weight": 3,
+        "severity": "medium",
+        "description": "Threatens additional charges."
+    },
+    {
+        "text": "failure to comply",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Threatens consequences for non-compliance."
+    },
+    {
+        "text": "failure to respond",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Threatens consequences for ignoring the message."
+    },
+    {
+        "text": "non compliance",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Claims policy violations."
+    },
+    {
+        "text": "violation detected",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Claims a policy violation."
+    },
+    {
+        "text": "security violation",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Claims a security violation."
+    },
+    {
+        "text": "policy violation",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Claims violation of company policy."
+    },
+    {
+        "text": "unauthorized access",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Claims unauthorized account access."
+    },
+    {
+        "text": "suspicious activity",
+        "weight": 4,
+        "severity": "high",
+        "description": "Claims suspicious account activity."
+    },
+    {
+        "text": "security breach",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Claims a security breach."
+    },
+    {
+        "text": "compromised account",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Claims account compromise."
+    },
+    {
+        "text": "your account is at risk",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Claims the account is at risk."
+    },
+    {
+        "text": "risk of closure",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Threatens account closure."
+    },
+    {
+        "text": "access denied",
+        "weight": 4,
+        "severity": "high",
+        "description": "Claims account access denial."
+    },
+    {
+        "text": "access revoked",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Claims user access has been revoked."
+    },
+    {
+        "text": "immediate suspension",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Threatens immediate suspension."
+    },
+    {
+        "text": "permanent suspension",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Threatens permanent suspension."
+    },
+    {
+        "text": "temporary suspension",
+        "weight": 4,
+        "severity": "high",
+        "description": "Claims temporary suspension."
+    },
+    {
+        "text": "account deactivated",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Claims account deactivation."
+    },
+    {
+        "text": "deactivate your account",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Threatens account deactivation."
+    },
+    {
+        "text": "blacklisted",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Claims the user has been blacklisted."
+    },
+    {
+        "text": "blocked account",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Claims the account has been blocked."
+    },
+    {
+        "text": "tax investigation",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Threatens government investigation."
+    },
+    {
+        "text": "irs notice",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Claims tax authority action."
+    },
+    {
+        "text": "government notice",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Claims official government action."
+    },
+    {
+        "text": "compliance required",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Demands regulatory compliance."
+    },
+    {
+        "text": "disciplinary action",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Threatens disciplinary measures."
+    },
+    {
+        "text": "employment termination",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Threatens job termination."
+    },
+    {
+        "text": "salary suspension",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Threatens payroll suspension."
+    },
+    {
+        "text": "payroll issue",
+        "weight": 4,
+        "severity": "high",
+        "description": "Claims payroll-related issues."
+    },
+    {
+        "text": "final demand",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Uses debt collection pressure."
+    },
+    {
+        "text": "collection notice",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Claims debt collection action."
+    },
+    {
+        "text": "cease immediately",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Demands immediate cessation."
+    },
+    {
+        "text": "serious consequences",
+        "weight": 6,
+        "severity": "critical",
+        "description": "Warns of severe consequences."
+    }
+]
+
+}
