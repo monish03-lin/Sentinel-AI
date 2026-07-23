@@ -56,7 +56,7 @@ def scan_keywords(text: str) -> KeywordScanResult:
     for end_index, (phrase, weight, category) in AUTOMATON.iter(text):
                  start_index= end_index - len(phrase) +1
                  left_boundary = (start_index == 0 or not text[start_index - 1].isalnum())
-                 right_boundary = (end_index == len(text) -1 or not text[end_index + 1]. isalnum())
+                 right_boundary = (end_index == len(text)-1 or not text[end_index + 1]. isalnum())
                  if left_boundary and right_boundary:
                     if phrase not in matched_keywords:
                         matched_keywords.add(phrase)

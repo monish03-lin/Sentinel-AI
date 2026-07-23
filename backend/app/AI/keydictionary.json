@@ -300,7 +300,308 @@
         "weight": 3,
         "severity": "medium",
         "description": "Uses scarcity to encourage quick decisions."
+    },
+    {
+        "text": "respond before end of day",
+        "weight": 4,
+        "severity": "high",
+        "description": "Sets a same-day deadline to pressure the recipient."
+    },
+    {
+        "text": "complete immediately",
+        "weight": 4,
+        "severity": "high",
+        "description": "Demands instant completion of a task."
+    },
+    {
+        "text": "confirm immediately",
+        "weight": 4,
+        "severity": "high",
+        "description": "Requests immediate confirmation."
+    },
+    {
+        "text": "verify as soon as possible",
+        "weight": 3,
+        "severity": "medium",
+        "description": "Encourages quick verification."
+    },
+    {
+        "text": "respond by today",
+        "weight": 4,
+        "severity": "high",
+        "description": "Creates pressure using a same-day deadline."
+    },
+    {
+        "text": "respond within the hour",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Uses an extremely short response window."
+    },
+    {
+        "text": "your prompt response",
+        "weight": 2,
+        "severity": "low",
+        "description": "Politely requests an immediate reply."
+    },
+    {
+        "text": "prompt action required",
+        "weight": 4,
+        "severity": "high",
+        "description": "Requests quick action without delay."
+    },
+    {
+        "text": "immediate confirmation",
+        "weight": 4,
+        "severity": "high",
+        "description": "Demands confirmation as quickly as possible."
+    },
+    {
+        "text": "act promptly",
+        "weight": 3,
+        "severity": "medium",
+        "description": "Encourages acting without hesitation."
+    },
+    {
+        "text": "requires your immediate attention",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Strong urgency cue frequently used in phishing."
+    },
+    {
+        "text": "urgent attention required",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Combines urgency with required action."
+    },
+    {
+        "text": "deadline is today",
+        "weight": 4,
+        "severity": "high",
+        "description": "Claims the deadline expires today."
+    },
+    {
+        "text": "must be completed today",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Insists on completion before the end of the day."
+    },
+    {
+        "text": "expires at midnight",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Uses a precise expiration time."
+    },
+    {
+        "text": "expires in 24 hours",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Creates pressure with a one-day deadline."
+    },
+    {
+        "text": "expires in 48 hours",
+        "weight": 4,
+        "severity": "high",
+        "description": "Encourages quick action before expiration."
+    },
+    {
+        "text": "respond before deadline",
+        "weight": 4,
+        "severity": "high",
+        "description": "Pressures users with a stated deadline."
+    },
+    {
+        "text": "last chance",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Uses fear of losing an opportunity."
+    },
+    {
+        "text": "your account will expire",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Threatens account expiration."
+    },
+    {
+        "text": "your session will expire",
+        "weight": 4,
+        "severity": "high",
+        "description": "Claims an active session is about to end."
+    },
+    {
+        "text": "response overdue",
+        "weight": 4,
+        "severity": "high",
+        "description": "Suggests the user has already missed a deadline."
+    },
+    {
+        "text": "past due",
+        "weight": 4,
+        "severity": "high",
+        "description": "Implies overdue action is required."
+    },
+    {
+        "text": "overdue notice",
+        "weight": 4,
+        "severity": "high",
+        "description": "Claims a required response is overdue."
+    },
+    {
+        "text": "urgent reminder",
+        "weight": 3,
+        "severity": "medium",
+        "description": "Frames urgency as a reminder."
+    },
+    {
+        "text": "immediate review required",
+        "weight": 4,
+        "severity": "high",
+        "description": "Requests instant review of information."
+    },
+    {
+        "text": "review immediately",
+        "weight": 4,
+        "severity": "high",
+        "description": "Demands prompt review."
+    },
+    {
+        "text": "your prompt attention",
+        "weight": 3,
+        "severity": "medium",
+        "description": "Requests immediate attention."
+    },
+    {
+        "text": "do this now",
+        "weight": 4,
+        "severity": "high",
+        "description": "Direct command intended to rush the recipient."
+    },
+    {
+        "text": "act before it's too late",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Uses fear to discourage careful thinking."
+    },
+    {
+        "text": "response needed today",
+        "weight": 4,
+        "severity": "high",
+        "description": "Requires action before the day ends."
+    },
+    {
+        "text": "urgent deadline",
+        "weight": 4,
+        "severity": "high",
+        "description": "Highlights an immediate deadline."
+    },
+    {
+        "text": "your immediate response is required",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Strong demand for an instant reply."
+    },
+    {
+        "text": "waiting for your response",
+        "weight": 2,
+        "severity": "low",
+        "description": "Creates social pressure to respond."
+    },
+    {
+        "text": "respond without hesitation",
+        "weight": 4,
+        "severity": "high",
+        "description": "Discourages careful consideration."
+    },
+    {
+        "text": "only a few hours left",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Creates urgency using a short remaining timeframe."
+    },
+    {
+        "text": "clock is ticking",
+        "weight": 4,
+        "severity": "high",
+        "description": "Psychologically pressures the recipient."
+    },
+    {
+        "text": "urgent deadline approaching",
+        "weight": 4,
+        "severity": "high",
+        "description": "Warns that a deadline is very close."
+    },
+    {
+        "text": "before your account is closed",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Threatens account closure unless action is taken."
+    },
+    {
+        "text": "before access is revoked",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Claims access will be removed."
+    },
+    {
+        "text": "avoid account closure",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Uses fear of losing account access."
+    },
+    {
+        "text": "before your access expires",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Claims account access will soon expire."
+    },
+    {
+        "text": "complete before deadline",
+        "weight": 4,
+        "severity": "high",
+        "description": "Requests completion before a specified deadline."
+    },
+    {
+        "text": "urgent verification needed",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Combines verification with urgency."
+    },
+    {
+        "text": "your response is mandatory",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Attempts to make responding seem compulsory."
+    },
+    {
+        "text": "pending action",
+        "weight": 3,
+        "severity": "medium",
+        "description": "Suggests unfinished work requiring attention."
+    },
+    {
+        "text": "pending verification",
+        "weight": 4,
+        "severity": "high",
+        "description": "Claims verification is awaiting completion."
+    },
+    {
+        "text": "pending approval",
+        "weight": 3,
+        "severity": "medium",
+        "description": "Suggests action is blocked until approval."
+    },
+    {
+        "text": "immediate compliance required",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Demands instant compliance with instructions."
+    },
+    {
+        "text": "respond before access is lost",
+        "weight": 5,
+        "severity": "critical",
+        "description": "Threatens loss of access to pressure immediate action."
     }
+
 ],
 "credential": [
 
@@ -610,6 +911,7 @@
         "severity": "critical",
         "description": "Attempts to steal login credentials."
     }
+
 ],
 "payment": [
 
